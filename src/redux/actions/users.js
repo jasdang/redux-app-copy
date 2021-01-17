@@ -1,8 +1,7 @@
 import * as type from '../types.js';
 
-export const getUsers = (users) => {
+export const getUsers = () => {
   return {
-    type: type.GET_USERS,
-    payload: users,
+    type: type.GET_USERS_REQUESTED,
   };
 };
